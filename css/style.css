@@ -411,7 +411,7 @@ textarea {
     background: rgba(255, 255, 255, 0.2);
     border: 0;
     box-shadow: none;
-    min-width: 235px;
+    min-width: 280px;
     color: #fff;
     height: 31px;
     border-radius: 19px;
@@ -1034,11 +1034,31 @@ textarea {
     /*background-size: cover;*/
     width: 100%;
     min-height: 90px;
-    border-radius: 4px;
     padding: 10px 20px;
     color: #8f8f8f;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     border: 1px solid #104e8b;
+    position: relative;
+}
+.profile-card h5{
+    margin-top: 28px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.profile-card h5 + p{
+    text-align: center;
+    position: relative;
+}
+.profile-card h5 + p::before{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    height: 2px;
+    width: 80%;
+    background-color:#104e8b ;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .profile-card h5 a{
     color: #27aae1;
@@ -1049,21 +1069,25 @@ textarea {
     color: #104e8b;
 }
 .profile-card img.profile-photo {
-    border: 7px solid #fff;
-    float: left;
-    margin-right: 20px;
-    position: relative;
-    top: -30px;
+    top: -35px;
     height: 70px;
     width: 70px;
-    border-radius: 50%;
+    border-radius: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid #fff;
+    position: absolute;
 }
 
 .profile-card h5 a {
     font-size: 16px;
     font-weight: 600;
 }
-
+.profile-card ul.nav-news-feed{
+    margin-left: -20px;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
 .profile-card a {
     font-size: 12px;
 }
@@ -1071,15 +1095,15 @@ textarea {
 /*Newsfeed Links CSS*/
 
 ul.nav-news-feed {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 0 10px 0;
 }
 
 ul.nav-news-feed li {
     list-style: none;
     display: block;
-    padding: 10px 0;
+    padding:  0;
 }
 
 ul.nav-news-feed li div {
@@ -2287,13 +2311,6 @@ input:checked + .slider:before {
     position: relative;
 }
 
-#footer::before {
-    content: "";
-    background: linear-gradient(to right, #ffffff 0%, #104e8b 50%, #ffffff 100%);
-    height: 5px;
-    width: 100%;
-    position: absolute;
-}
 
 .footer-wrapper {
     padding: 35px 0;
@@ -2363,12 +2380,24 @@ ul.contact li i {
 }
 
 .copyright {
-    background: #231F20;
+    background: #a2a2a2;
     text-align: center;
     color: #fff;
-    padding: 12px 0 4px;
+    padding: 9px 0 4px;
 }
-
+.copyright ul li{
+    margin: 0;
+    padding: 0;
+}
+.copyright ul li a{
+    color: #fff;
+}
+.copyright ul{
+    margin-bottom: 0;
+}
+.copyright p{
+    margin-bottom: 0;
+}
 /*==================================================
   CSS for width 992px
   ==================================================*/
@@ -2886,27 +2915,26 @@ ul.contact li i {
 }
 
 .my-Add {
-    background-color: #104e8b;
-
-    font-size: 50px;
-    text-align: center;
-    padding: 65px 0;
     margin-bottom: 15px;
 }
-
+.my-Add img{
+    margin: 0 auto;
+}
 .my-Add h2 {
     color: #fff;
 }
-
+#page-contents.index-container{
+    padding-bottom: 10px;
+}
 .profile-message-num span {
     position: absolute;
     right: -22px;
-    top: 5px;
+    top: 1px;
     display: inline-block;
     background: #f02518;
     border-radius: 50px;
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     color: #fff;
     line-height: 15px;
     padding: 0;
@@ -3074,6 +3102,7 @@ ul.contact li i {
     text-align: right;
     border-top: 0;
     background: #fff;
+    margin-top: -9px;
 }
 .attachments > ul {
     list-style: outside none none;
@@ -3174,7 +3203,8 @@ ul.contact li i {
 .post-meta  img {
     float: left;
     width: 100%;
-    height: auto;
+    max-height: 400px;
+    object-fit: cover;
 }
 .we-video-info {
     float: left;
@@ -3242,6 +3272,34 @@ ul.contact li i {
     margin-bottom: 0;
     width: 100%;
 }
+
+.we-comet > li ul li .we-comment::before,
+.we-comet > li ul li .we-comment::after{
+    border-right-color: #76ea7f;
+}
+/*.we-comet > li.line-has-child:before{*/
+    /*position: absolute;*/
+    /*left: -13px;*/
+
+    /*top: 30px;*/
+    /*content: '';*/
+    /*width: 1px;*/
+    /*background: #333333;*/
+    /*height: 100%;*/
+
+/*}*/
+/*.we-comet > li ul li .comet-avatar{*/
+    /*position: relative;*/
+/*}*/
+/*.we-comet > li ul li .comet-avatar::before{*/
+    /*position: absolute;*/
+    /*left: -67px;*/
+    /*top: 30px;*/
+    /*width: 67px;*/
+    /*height: 1px;*/
+    /*content: '';*/
+    /*background: #333333;*/
+/*}*/
 .comet-avatar {
     display: table-cell;
     max-width: 7.6%;
@@ -3405,23 +3463,22 @@ li.post-comment .comet-avatar {
     display: none;
 }
 .nav-news-container h5{
-    position: absolute;
-    display: inline-block;
-    background: #fff;
-    color: #104e8b;
-    font-weight: 600;
-    left: 10%;
-    top: -21px;
+    display: block;
+    background: #104e8b;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 4px;
     font-size: 17px;
-    padding: 0 10px;
+    padding: 4px 10px;
+    margin-top: -15px;
+    text-align: center;
 }
 .nav-news-container{
     padding-top: 15px;
     border: 1px solid #104e8b;
-    border-radius: 4px;
 }
 .nav-news-feed a{
-    font-size: 16px;
+    font-size: 15px;
 }
 .comment-post-container.central-meta{
     border: 0;
@@ -3441,8 +3498,26 @@ li.post-comment .comet-avatar {
 .central-meta.item .user-post{
     margin-top: -15px;
 }
+.highcharts-exporting-group{
+    display: none;
+}
+.map-section .post-content{
+    border: 0;
+}
+.we-comment::before,
+.we-comment::after{
+    border-right-color: #104e8b;
+}
+.mt-30{
+    margin-top: 30px;
+}
 @media (min-width: 1300px) {
     .container {
         width: 1270px;
+    }
+}
+@media (min-width: 992px) {
+    .highcharts-series{
+        transform: scaleY(1.2);
     }
 }

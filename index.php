@@ -20,61 +20,21 @@
 <?php include "header.php"?>
 <!--Header End-->
 
-<div id="page-contents">
+<div id="page-contents" class="index-container">
     <div class="container">
         <div class="row">
 
             <!-- Newsfeed Common Side Bar Left
             ================================================= -->
-            <div class="col-md-3 static">
-                <div class="profile-card">
-                    <img src="images/users/user-12.jpg" alt="user" class="profile-photo"/>
-                    <h5><a href="#">Hamza abo aitah</a></h5>
-                    <p class="m-0">Happy world</p>
-                </div><!--profile card ends-->
-                <div class="nav-news-container relative">
-                    <h5>My Office </h5>
-                <ul class="nav-news-feed">
-                    <li><i class="icon ion-chatboxes"></i>
-                        <div class="profile-message-num relative">
-                            <a class="relative" href="#">Messages
-                                <span>5</span>
-                            </a>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </li>
-                    <li><i><img src="images/meeting.svg" alt=""></i>
-                        <div><a href="#">Meetings and Tasks</a></div>
-                    </li>
-                    <li><i class="icon ion-ios-people"></i>
-                        <div><a href="#">Partner and Clients</a></div>
-                    </li>
-                    <li><i><img src="images/staff.svg" alt=""></i>
-                        <div><a href="#">My Staff</a></div>
-                    </li>
-                    <li><i><img src="images/meeting-room.svg" alt=""></i>
-                        <div><a href="#">Our Meeting Room</a></div>
-                    </li>
-                    <li><i><img src="images/jobs.svg"></i>
-                        <div><a href="#">Our Vacancies</a></div>
-                    </li>
-                    <li><i><img src="images/myadd.svg"></i>
-                        <div><a href="#">My Ads on N</a></div>
-                    </li>
-                    <li><i><img src="images/support.svg"></i>
-                        <div><a href="#">My Logistic Services</a></div>
-                    </li>
-                    <!--                    <li><i class="icon ion-images"></i>-->
-                    <!--                        <div><a href="newsfeed-images.html">Images</a></div>-->
-                    <!--                    </li>-->
-                    <!--                    <li><i class="icon ion-ios-videocam"></i>-->
-                    <!--                        <div><a href="newsfeed-videos.html">Videos</a></div>-->
-                    <!--                    </li>-->
-                </ul><!--news-feed links ends-->
+            <div class="col-md-2 static">
+                <div class="my-Add">
+                    <img class="img-responsive" src="images/p.png" alt="">
+                </div>
+                <div class="my-Add">
+                    <img class="img-responsive" src="images/p.png" alt="">
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-8 map-section">
                 <!-- Post Content
                 ================================================= -->
                 <div class="post-content">
@@ -82,15 +42,7 @@
                 </div>
 
             </div>
-            <div class="col-md-2 static">
-                <div class="my-Add">
-                    <h2>AD</h2>
-                </div>
-                <div class="my-Add">
-                    <h2>AD</h2>
-                </div>
-            </div>
-
+            <?php include 'sidebar.php'?>
             <!-- Newsfeed Common Side Bar Right
             ================================================= -->
 
@@ -133,6 +85,7 @@
     Highcharts.mapChart('map-container', {
         chart: {
             map: 'custom/world-continents',
+            height: 460
 
         },
         title: {

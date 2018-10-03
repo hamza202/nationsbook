@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 //Preloader
 var preloader = $('#spinner-wrapper');
@@ -118,7 +118,7 @@ function attachSticky() {
     });
 
     // Sticky Right Sidebar
-    $('#sticky-sidebar').stick_in_parent({
+    $('.sticky-sidebar').stick_in_parent({
         parent: '#page-contents',
         offset_top: 70
     });
@@ -132,7 +132,7 @@ $(window).on("resize", function() {
         // Check if Screen wWdth is Less Than or Equal to 992px, Disable Sticky Feature
         if ($(this).width() <= 992) {
             $('#chat-block').trigger('sticky_kit:detach');
-            $('#sticky-sidebar').trigger('sticky_kit:detach');
+            $('.sticky-sidebar').trigger('sticky_kit:detach');
 
             return;
         } else {
