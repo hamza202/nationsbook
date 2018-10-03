@@ -160,8 +160,7 @@
                                                     <div class="coment-head">
                                                         <h5><a href="#" title="">alexendra dadrio</a></h5>
                                                         <span>1 month ago</span>
-                                                        <a class="we-reply" href="#" title="Reply"><i
-                                                                    class="fa fa-reply"></i></a>
+
                                                     </div>
                                                     <p>yes, really very awesome car i see the features of this car in
                                                         the official website of <a href="#" title="">#Mercedes-Benz</a>
@@ -176,8 +175,6 @@
                                                     <div class="coment-head">
                                                         <h5><a href="#" title="">Olivia</a></h5>
                                                         <span>16 days ago</span>
-                                                        <a class="we-reply" href="#" title="Reply"><i
-                                                                    class="fa fa-reply"></i></a>
                                                     </div>
                                                     <p>i like lexus cars, lexus cars are most beautiful with the awesome
                                                         features, but this car is really outstanding than lexus</p>
@@ -302,11 +299,16 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Jason borne</a></h5>
                                                 <span>1 year ago</span>
-                                                <a class="we-reply" href="#" title="Reply"><i
+                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo"><i
                                                             class="fa fa-reply"></i></a>
                                             </div>
                                             <p>we are working for the dance and sing songs. this car is very awesome for
                                                 the youngster. please vote this car and like our post</p>
+                                        </div>
+                                        <div id="demo" class="collapse">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                         </div>
                                         <ul>
                                             <li>
@@ -317,8 +319,7 @@
                                                     <div class="coment-head">
                                                         <h5><a href="#" title="">alexendra dadrio</a></h5>
                                                         <span>1 month ago</span>
-                                                        <a class="we-reply" href="#" title="Reply"><i
-                                                                    class="fa fa-reply"></i></a>
+
                                                     </div>
                                                     <p>yes, really very awesome car i see the features of this car in
                                                         the official website of <a href="#" title="">#Mercedes-Benz</a>
@@ -333,8 +334,6 @@
                                                     <div class="coment-head">
                                                         <h5><a href="#" title="">Olivia</a></h5>
                                                         <span>16 days ago</span>
-                                                        <a class="we-reply" href="#" title="Reply"><i
-                                                                    class="fa fa-reply"></i></a>
                                                     </div>
                                                     <p>i like lexus cars, lexus cars are most beautiful with the awesome
                                                         features, but this car is really outstanding than lexus</p>

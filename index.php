@@ -69,6 +69,7 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/highmaps.js"></script>
+<script src="https://code.highcharts.com/modules/annotations.js"></script>
 <script src="js/exporting.js"></script>
 <script src="js/world-continents.js"></script>
 <script>
@@ -78,22 +79,23 @@
         ['af', 2],
         ['as', 3],
         ['na', 4],
-        ['sa', 5]
+        ['sa', 50]
     ];
 
     // Create the chart
     Highcharts.mapChart('map-container', {
         chart: {
             map: 'custom/world-continents',
-            height: 460
-
+            height: 460,
         },
+
         title: {
             text: ''
         },
         mapNavigation: {
             enabled: false,
         },
+
         colorAxis: {
             min: 0
         },
@@ -101,15 +103,17 @@
         series: [{
             data: data,
             name: 'Random data',
+
             states: {
                 hover: {
                     color: '#BADA55'
                 }
             },
             dataLabels: {
+                y: 20,
                 enabled: true,
                 format: '{point.name}'
-            }
+            },
         }]
     });
 
