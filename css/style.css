@@ -3326,7 +3326,7 @@ ul.contact li i {
     border-right: 11px solid #eaeaea;
     border-top: 10px solid transparent;
     left: -11px;
-    top: 10px;
+    top: 15px;
     position: absolute;
     content: '';
 }
@@ -3351,9 +3351,10 @@ ul.contact li i {
     -ms-text-decoration: none;
     -o-text-decoration: none;
     text-decoration: none;
+    cursor: pointer;
     transition: all ease-in-out 0.3s;
 }
-.coment-head a:hover{
+.coment-head a{
     color: #104e8b;
 }
 .coment-head > span {
@@ -3383,7 +3384,7 @@ ul.contact li i {
     border-right: 9px solid #fff;
     border-top: 8px solid transparent;
     left: -9px;
-    top: 12px;
+    top: 16px;
     position: absolute;
     content: '';
 }
@@ -3510,6 +3511,12 @@ li.post-comment .comet-avatar {
 }
 .mt-30{
     margin-top: 30px;
+}
+.my-Add img{
+    width: 100%;
+}
+#login h3{
+    margin-top: 0;
 }
 @media (min-width: 1300px) {
     .container {

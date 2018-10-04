@@ -1,5 +1,6 @@
 <div class="col-md-2 static ">
     <div class="suggestions sticky-sidebar mt-30">
+
         <div class="profile-card">
             <img src="images/users/user-12.jpg" alt="user" class="profile-photo"/>
             <h5><a href="#">Hamza abo aitah</a></h5>
@@ -51,6 +52,31 @@
                 </li>
 
             </ul><!--news-feed links ends-->
+        </div>
+        <div  id="login">
+            <h3>Login</h3>
+            <p class="text-muted">Log into your account</p>
+
+            <!--Login Form-->
+            <form name="Login_form" id="Login_form">
+                <div class="row">
+                    <div class="form-group col-xs-12">
+                        <label for="my-email" class="sr-only">Email</label>
+                        <input id="my-email" class="form-control input-group-lg" type="text" name="Email" title="Enter Email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-xs-12">
+                        <label for="my-password" class="sr-only">Password</label>
+                        <input id="my-password" class="form-control input-group-lg" type="password" name="password" title="Enter password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <p><a href="#">Forgot Password?</a></p>
+                <button type="submit" class="btn btn-primary">Login Now</button>
+            </form><!--Login Form Ends-->
         </div>
     </div>
 </div>

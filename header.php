@@ -20,7 +20,6 @@
                     <li class="dropdown"><a href="index.php">Home</a></li>
                     <li class="dropdown"><a href="index.php">World</a></li>
                     <li class="dropdown"><a href="index.php">Register</a></li>
-                    <li class="dropdown"><a href="index.php">Login</a></li>
                 </ul>
                 <form class="navbar-form navbar-right hidden-sm">
                     <div class="form-group">

@@ -29,7 +29,7 @@
             <!-- Newsfeed Common Side Bar Left
             ================================================= -->
 
-            <div class="col-md-2 static">
+            <div class="col-md-3 static">
                 <div class="suggestions sticky-sidebar">
                     <div class="my-Add">
                         <img class="img-responsive" src="images/p.png" alt="">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <!-- Post Content
                 ================================================= -->
                 <div class="post-content newsfeed-page">
@@ -145,11 +145,28 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Jason borne</a></h5>
                                                 <span>1 year ago</span>
-                                                <a class="we-reply" href="#" title="Reply"><i
-                                                            class="fa fa-reply"></i></a>
+                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo4">
+                                                    Reply
+                                                </a>
                                             </div>
                                             <p>we are working for the dance and sing songs. this car is very awesome for
                                                 the youngster. please vote this car and like our post</p>
+                                        </div>
+                                        <div id="demo4" class="collapse">
+                                            <ul>
+                                                <li class="post-comment">
+                                                    <div class="comet-avatar">
+                                                        <img src="images/users/user-1.jpg" alt="">
+                                                    </div>
+                                                    <div class="post-comt-box">
+                                                        <form method="post">
+                                                            <textarea placeholder="Reply"></textarea>
+
+                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                         <ul>
                                             <li>
@@ -190,12 +207,29 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Donald Trump</a></h5>
                                                 <span>1 week ago</span>
-                                                <a class="we-reply" href="#" title="Reply"><i
-                                                            class="fa fa-reply"></i></a>
+                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo3">
+                                                    Reply
+                                                </a>
                                             </div>
                                             <p>we are working for the dance and sing songs. this video is very awesome
                                                 for the youngster. please vote this video and like our channel
                                             </p>
+                                        </div>
+                                        <div id="demo3" class="collapse">
+                                            <ul>
+                                                <li class="post-comment">
+                                                    <div class="comet-avatar">
+                                                        <img src="images/users/user-1.jpg" alt="">
+                                                    </div>
+                                                    <div class="post-comt-box">
+                                                        <form method="post">
+                                                            <textarea placeholder="Reply"></textarea>
+
+                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </li>
                                     <li>
@@ -299,16 +333,28 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Jason borne</a></h5>
                                                 <span>1 year ago</span>
-                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo"><i
-                                                            class="fa fa-reply"></i></a>
+                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo">
+                                                    Reply
+                                                </a>
                                             </div>
                                             <p>we are working for the dance and sing songs. this car is very awesome for
                                                 the youngster. please vote this car and like our post</p>
                                         </div>
                                         <div id="demo" class="collapse">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            <ul>
+                                                <li class="post-comment">
+                                                    <div class="comet-avatar">
+                                                        <img src="images/users/user-1.jpg" alt="">
+                                                    </div>
+                                                    <div class="post-comt-box">
+                                                        <form method="post">
+                                                            <textarea placeholder="Reply"></textarea>
+
+                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                         <ul>
                                             <li>
@@ -338,6 +384,7 @@
                                                     <p>i like lexus cars, lexus cars are most beautiful with the awesome
                                                         features, but this car is really outstanding than lexus</p>
                                                 </div>
+
                                             </li>
                                         </ul>
                                     </li>
@@ -349,12 +396,29 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Donald Trump</a></h5>
                                                 <span>1 week ago</span>
-                                                <a class="we-reply" href="#" title="Reply"><i
-                                                            class="fa fa-reply"></i></a>
+                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo2">
+                                                    Reply
+                                                </a>
                                             </div>
                                             <p>we are working for the dance and sing songs. this video is very awesome
                                                 for the youngster. please vote this video and like our channel
                                             </p>
+                                        </div>
+                                        <div id="demo2" class="collapse">
+                                            <ul>
+                                                <li class="post-comment">
+                                                    <div class="comet-avatar">
+                                                        <img src="images/users/user-1.jpg" alt="">
+                                                    </div>
+                                                    <div class="post-comt-box">
+                                                        <form method="post">
+                                                            <textarea placeholder="Reply"></textarea>
+
+                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </li>
                                     <li>
