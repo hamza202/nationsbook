@@ -26,7 +26,7 @@
 
             <!-- Newsfeed Common Side Bar Left
             ================================================= -->
-            <div class="col-md-3 static">
+            <div class="col-md-2 static add-container">
                 <div class="my-Add">
                     <img class="img-responsive" src="images/p.png" alt="">
                 </div>
@@ -34,7 +34,7 @@
                     <img class="img-responsive" src="images/p.png" alt="">
                 </div>
             </div>
-            <div class="col-md-7 map-section">
+            <div class="col-md-8 map-section">
                 <!-- Post Content
                 ================================================= -->
                 <div class="post-content">
@@ -79,7 +79,7 @@
         ['af', 2],
         ['as', 3],
         ['na', 4],
-        ['sa', 50]
+        ['sa', 5]
     ];
 
     // Create the chart

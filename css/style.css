@@ -3527,4 +3527,11 @@ li.post-comment .comet-avatar {
     .highcharts-series{
         transform: scaleY(1.2);
     }
+     .add-container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .index-container .map-section{
+        padding-left: 0;
+    }
 }
