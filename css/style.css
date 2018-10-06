@@ -831,12 +831,8 @@ textarea {
   ==================================================*/
 
 #lp-register {
-    background-color: #104e8b;
-    background-image: url("../images/black-linen.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 59px);
 }
 
 #lp-register .wrapper {
@@ -845,7 +841,6 @@ textarea {
 }
 
 .intro-texts {
-    color: #fff;
     font-size: 14px;
     transform: translateY(100px);
 }
@@ -875,7 +870,7 @@ textarea {
     padding: 40px 40px 40px 60px;
     border-radius: 6px;
     position: relative;
-    min-height: 560px;
+    min-height: 460px;
     z-index: 10;
 }
 
@@ -907,7 +902,7 @@ textarea {
 
 .reg-form-container .reg-options::before {
     content: "";
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+    background: linear-gradient(to right, rgb(16, 78, 139), rgba(16, 78, 139, 0.76));
     height: 70%;
     width: 50px;
     position: absolute;
@@ -950,7 +945,7 @@ textarea {
 
 .reg-form-container .nav-tabs > li > a {
     background: transparent;
-    color: #939598;
+    color: #C3C3C3;
     padding: 5px 30px;
     min-width: 120px;
     border-radius: 30px;
