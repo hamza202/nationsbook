@@ -91,7 +91,7 @@
                                                  alt="">
                                             <div class="change-photo-btn">
                                                 <div class="photoUpload">
-                                                    <span><i class="fa fa-upload"></i> Upload Photo</span>
+                                                    <span><i class="fa fa-upload"></i> Chose image</span>
                                                     <input type="file" class="upload file-upload up2"/>
                                                 </div>
                                             </div>
