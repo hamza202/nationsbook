@@ -831,18 +831,17 @@ textarea {
   ==================================================*/
 
 #lp-register {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg/bg-3.jpg) fixed no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
+    background-color: #104e8b;
+    background-image: url("../images/black-linen.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
     width: 100%;
     min-height: 100vh;
 }
 
 #lp-register .wrapper {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .intro-texts {
@@ -3512,12 +3511,65 @@ li.post-comment .comet-avatar {
 .mt-30{
     margin-top: 30px;
 }
+.mt-20{
+    margin-top: 20px;
+}
 .my-Add img{
     width: 100%;
 }
 #login h3{
     margin-top: 0;
 }
+.edit-profile-photo {
+    position: relative;
+    display: block;
+    text-align:center;
+}
+.edit-profile-photo img {
+    max-width: 100%;
+    width: auto;
+    max-height: 185px;
+    border-radius: 4px;
+}
+.change-photo-btn {
+    font-weight: 600;
+    padding: 5px 6px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 13px;
+    transition: .3s;
+    cursor: pointer;
+    line-height: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: auto;
+}
+.photoUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.photoUpload {
+    position: relative;
+    overflow: hidden;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+.change-photo-btn {
+    left: 0;
+    right: 0;
+    max-width: 140px;
+    margin: 0 auto;
+}
+
 @media (min-width: 1300px) {
     .container {
         width: 1270px;
@@ -3526,6 +3578,9 @@ li.post-comment .comet-avatar {
 @media (min-width: 992px) {
     .highcharts-series{
         transform: scaleY(1.2);
+    }
+    #lp-register .intro-texts{
+        padding-right: 45px;
     }
      .add-container{
         padding-right: 0;

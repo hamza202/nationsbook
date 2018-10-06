@@ -645,11 +645,6 @@
     </div>
 </div>
 
-<!-- Footer
-================================================= -->
-<div class="copyright">
-    <p>NationsBook © 2018. All rights reserved</p>
-</div>
 <!--preloader-->
 <div id="spinner-wrapper">
     <div class="spinner"></div>

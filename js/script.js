@@ -1,5 +1,27 @@
 'use strict';
+//Change file img
+$(document).ready(function() {
 
+
+    var readURL = function(input=['file']) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.pic2').attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+
+
+    $(".up2").on('change', function(){
+        readURL(this);
+    });
+
+
+});
 //Preloader
 var preloader = $('#spinner-wrapper');
 $(window).on('load', function() {
