@@ -14,32 +14,28 @@
     <?php include "style.php" ?>
 </head>
 <body>
-
+<?php include 'header.php'?>
 <!-- Landing Page Contents
    ================================================= -->
 <div id="lp-register">
     <div class="container wrapper">
         <div class="row">
-            <div class="col-md-2 static add-container">
-                <div class="suggestions sticky-sidebar">
-                    <div class="my-Add">
-                        <img class="img-responsive" src="images/p.png" alt="">
+                <div class="col-md-2 static add-container">
+                    <div class="suggestions sticky-sidebar">
+                        <div class="my-Add">
+                            <img class="img-responsive" src="images/p.png" alt="">
+                        </div>
+                        <div class="my-Add">
+                            <img class="img-responsive" src="images/p.png" alt="">
+                        </div>
                     </div>
-                    <div class="my-Add">
-                        <img class="img-responsive" src="images/p.png" alt="">
-                    </div>
-                </div>
             </div>
             <div class="col-md-5">
                 <div class="intro-texts">
                     <h1 class="text-white">Make Cool Friends !!!</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus eum facilis, fuga itaque
-                        minima nam, numquam odio quia quo quod rem sit totam. Inventore magnam minus perspiciatis porro
-                        reprehenderit?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda blanditiis debitis
-                        dolore eligendi exercitationem labore nam, nobis odit perspiciatis placeat qui ratione
-                        repellendus sed tempore ullam voluptates! Cumque, omnis?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus eum facilis, fuga itaque minima nam, numquam odio quia quo quod rem sit totam. Inventore magnam minus perspiciatis porro reprehenderit?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda blanditiis debitis dolore eligendi exercitationem labore nam, nobis odit perspiciatis placeat qui ratione repellendus sed tempore ullam voluptates! Cumque, omnis?
                     </p>
                 </div>
             </div>
@@ -106,8 +102,7 @@
                                             <div class="form-group col-xs-12">
                                                 <label for="firstname" class="sr-only">First Name</label>
                                                 <input id="firstname" class="form-control input-group-lg" type="text"
-                                                       name="firstname" title="Enter first name"
-                                                       placeholder="First name"/>
+                                                       name="firstname" title="Enter first name" placeholder="First name"/>
                                             </div>
                                             <div class="form-group col-xs-12">
                                                 <label for="lastname" class="sr-only">Last Name</label>
