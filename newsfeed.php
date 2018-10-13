@@ -273,9 +273,16 @@
                                         </p>
                                     </div>
                                     <iframe  width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <div style="display:none;" id="video1">
+                                        <video class="lg-video-object lg-html5"  controls preload="none">
+                                            <source src="vedio/video.mp4" type="video/mp4">
+                                            Your browser does not support HTML5 video.
+                                        </video>
+                                    </div>
                                     <ul class="imageGallery">
-                                        <li class="video" data-thumb="//img.youtube.com/vi/ZribHM7cp5k/1.jpg" data-src="https://www.youtube.com/watch?v=Ss5Yelj0pKs">
-                                            <img src="//img.youtube.com/vi/ZribHM7cp5k/1.jpg" />
+
+                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"  data-thumb="vedio/thumb-v-y-1.jpg"  data-html="#video1" >
+                                            <img src="vedio/thumb-v-y-1.jpg" />
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
                                             <img src="images/album/3.jpg" />
@@ -455,9 +462,25 @@
                                     <span>published: june,2 2018 19:PM</span>
                                 </div>
                                 <div class="post-meta">
+                                    <div class="description">
+
+                                        <p>
+                                            Curabitur world's most beautiful car in <a href="#" title="">#test drive
+                                                booking !</a> the most beatuiful car available in america and the saudia
+                                            arabia, you can book your test drive by our official website
+                                        </p>
+                                    </div>
+                                    <iframe  width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <div style="display:none;" id="video1">
+                                        <video class="lg-video-object lg-html5"  controls preload="none">
+                                            <source src="vedio/video.mp4" type="video/mp4">
+                                            Your browser does not support HTML5 video.
+                                        </video>
+                                    </div>
                                     <ul class="imageGallery">
-                                        <li class="video" data-thumb="//img.youtube.com/vi/ZribHM7cp5k/1.jpg" data-src="https://www.youtube.com/watch?v=Ss5Yelj0pKs">
-                                            <img src="//img.youtube.com/vi/ZribHM7cp5k/1.jpg" />
+
+                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"  data-thumb="vedio/thumb-v-y-1.jpg"  data-html="#video1" >
+                                            <img src="vedio/thumb-v-y-1.jpg" />
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
                                             <img src="images/album/3.jpg" />
@@ -506,14 +529,7 @@
 
                                         </ul>
                                     </div>
-                                    <div class="description">
 
-                                        <p>
-                                            Curabitur world's most beautiful car in <a href="#" title="">#test drive
-                                                booking !</a> the most beatuiful car available in america and the saudia
-                                            arabia, you can book your test drive by our official website
-                                        </p>
-                                    </div>
                                 </div>
                             </div>
                             <div class="coment-area">
@@ -653,8 +669,6 @@
 
 <!-- Scripts
 ================================================= -->
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTMXfmDn0VlqWIyoOxK8997L-amWbUPiQ&amp;callback=initMap"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.sticky-kit.min.js"></script>
@@ -673,6 +687,8 @@
             enableDrag: false,
             currentPagerPosition: 'left',
             onSliderLoad: function (el) {
+                $('.lSSlideOuter li a img[src*="vedio/"]').parent().parent().addClass('video-icon');
+
                 el.lightGallery({
                     selector: '.imageGallery .lslide'
                 });
