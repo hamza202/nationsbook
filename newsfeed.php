@@ -73,7 +73,10 @@
                                             </li>
                                         </ul>
                                         <div class="tab-content mt-20">
-                                            <div role="tabpanel" class="tab-pane " id="video-pic">video</div>
+                                            <div role="tabpanel" class="tab-pane " id="video-pic">
+                                                <input id="input-b3" name="input-b3[]" type="file" class="file" multiple
+                                                       data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
+                                            </div>
                                             <div role="tabpanel" class="tab-pane" id="youtube">
                                                 <div class="input-group">
                                                     <span class="input-group-addon y-add"><i class="fa fa-youtube-play"></i></span>
@@ -679,6 +682,7 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/lightslider.min.js"></script>
 <script src="js/lightgallery-all.min.js"></script>
+<script src="js/fileinput.min.js"></script>
 <script src="js/script.js"></script>
 <script>
     $(document).ready(function () {
@@ -699,7 +703,11 @@
             }
         });
     });
+    $(document).on('ready', function() {
+        $("#input-b3").fileinput({});
+    });
 </script>
+
 </body>
 
 </html>

@@ -3715,6 +3715,37 @@ li.video-icon::before {
     background-color: #f8f8f8;
     border: 1px solid #e8e8e8;
 }
+.krajee-default .file-caption-info, .krajee-default .file-size-info{
+    line-height: 16px;
+}
+button.fileinput-remove{
+    background: #cd201f;
+    color: #fff;
+}
+button.fileinput-remove:hover{
+    background: #bf1e1d;
+    color: #fff;
+}
+.file-preview .fileinput-remove{
+    color: #cd201f;
+    opacity: 1;
+    background: transparent;
+    top: 6px;
+    right: 6px;
+}
+.file-preview .fileinput-remove:hover{
+    color:  #bf1e1d;
+    background: transparent;
+}
+.file-caption{
+    margin-top: 3px;
+}
+.file-upload-indicator{
+    display: none;
+}
+.file-drop-zone-title{
+    padding: 40px 10px;
+}
 @media (min-width: 1300px) {
     .container {
         width: 1270px;

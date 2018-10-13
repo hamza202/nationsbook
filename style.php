@@ -1,10 +1,11 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/ionicons.min.css" />
 <link rel="stylesheet" href="css/font-awesome.min.css" />
 <link href="css/emoji.css" rel="stylesheet">
 <link rel="stylesheet" href="css/lightgallery.min.css">
 <link rel="stylesheet" href="css/lightslider.css">
+<link rel="stylesheet" href="css/fileinput.css">
+<link rel="stylesheet" href="css/style.css" />
 <!--Google Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
