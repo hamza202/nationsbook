@@ -52,36 +52,35 @@
                             <div class="newpst-input">
                                 <form method="post">
                                     <textarea rows="2" placeholder="write something"></textarea>
+                                    <!-- Nav tabs -->
+                                    <!-- Tab panes -->
                                     <div class="attachments">
-                                        <ul>
-                                            <li>
-                                                <i class="fa fa-music"></i>
-                                                <label class="fileContainer">
-                                                    <input type="file">
-                                                </label>
+                                        <ul role="tablist">
+                                            <li role="presentation">
+                                                <a href="#youtube" aria-controls="youtube" role="tab" data-toggle="tab">
+                                                <i class="fa fa-youtube-play"></i>
+                                                </a>
+
                                             </li>
-                                            <li>
-                                                <i class="fa fa-image"></i>
-                                                <label class="fileContainer">
-                                                    <input type="file">
-                                                </label>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-video-camera"></i>
-                                                <label class="fileContainer">
-                                                    <input type="file">
-                                                </label>
-                                            </li>
-                                            <li>
+
+                                            <li role="presentation">
+                                                <a href="#video-pic" aria-controls="video-pic" role="tab" data-toggle="tab">
                                                 <i class="fa fa-camera"></i>
-                                                <label class="fileContainer">
-                                                    <input type="file">
-                                                </label>
+                                                </a>
                                             </li>
                                             <li>
                                                 <button type="submit" class="btn btn-primary ">Publish</button>
                                             </li>
                                         </ul>
+                                        <div class="tab-content mt-20">
+                                            <div role="tabpanel" class="tab-pane " id="video-pic">video</div>
+                                            <div role="tabpanel" class="tab-pane" id="youtube">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon y-add"><i class="fa fa-youtube-play"></i></span>
+                                                    <input  id="youtube-link" type="text" class="form-control" name="youtube-link" placeholder="https://www.youtube.com/watch?v=sdfdfdgd356">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -660,7 +659,12 @@
         </div>
     </div>
 </div>
+<div>
 
+
+
+
+</div>
 <!--preloader-->
 <div id="spinner-wrapper">
     <div class="spinner"></div>
