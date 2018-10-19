@@ -55,34 +55,24 @@
                                     <!-- Nav tabs -->
                                     <!-- Tab panes -->
                                     <div class="attachments">
-                                        <ul role="tablist">
-                                            <li role="presentation">
-                                                <a href="#youtube" aria-controls="youtube" role="tab" data-toggle="tab">
-                                                <i class="fa fa-youtube-play"></i>
+                                        <ul>
+                                            <li>
+                                                <a title="attachment" data-toggle="collapse" data-target="#dd">
+                                                <i class="fa fa-paperclip"></i>
                                                 </a>
 
-                                            </li>
-
-                                            <li role="presentation">
-                                                <a href="#video-pic" aria-controls="video-pic" role="tab" data-toggle="tab">
-                                                <i class="fa fa-camera"></i>
-                                                </a>
                                             </li>
                                             <li>
                                                 <button type="submit" class="btn btn-primary ">Publish</button>
                                             </li>
                                         </ul>
-                                        <div class="tab-content mt-20">
-                                            <div role="tabpanel" class="tab-pane " id="video-pic">
-                                                <input id="input-b3" name="input-b3[]" type="file" class="file" multiple
-                                                       data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
+                                        <div id="dd" class="collapse mt-20">
+                                            <div class="input-group mb-20">
+                                                <span class="input-group-addon y-add"><i class="fa fa-youtube-play"></i></span>
+                                                <input  id="youtube-link" type="text" class="form-control" name="youtube-link" placeholder="https://www.youtube.com/watch?v=sdfdfdgd356">
                                             </div>
-                                            <div role="tabpanel" class="tab-pane" id="youtube">
-                                                <div class="input-group">
-                                                    <span class="input-group-addon y-add"><i class="fa fa-youtube-play"></i></span>
-                                                    <input  id="youtube-link" type="text" class="form-control" name="youtube-link" placeholder="https://www.youtube.com/watch?v=sdfdfdgd356">
-                                                </div>
-                                            </div>
+                                            <input id="input-b3" name="input-b3[]" type="file" class="file" multiple
+                                                   data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
                                         </div>
                                     </div>
                                 </form>
@@ -696,7 +686,6 @@
             currentPagerPosition: 'left',
             onSliderLoad: function (el) {
                 $('.lSSlideOuter li a img[src*="vedio/"]').parent().parent().addClass('video-icon');
-
                 el.lightGallery({
                     selector: '.imageGallery .lslide'
                 });

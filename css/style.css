@@ -3746,6 +3746,9 @@ button.fileinput-remove:hover{
 .file-drop-zone-title{
     padding: 40px 10px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 @media (min-width: 1300px) {
     .container {
         width: 1270px;
