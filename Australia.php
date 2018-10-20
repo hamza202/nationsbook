@@ -69,23 +69,27 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/highmaps.js"></script>
-<script src="https://code.highcharts.com/modules/annotations.js"></script>
+<script src="js/annotations.js"></script>
 <script src="js/exporting.js"></script>
-<script src="js/world-continents.js"></script>
+<script src="js/au-all.js"></script>
 <script>
     var data = [
-        ['eu', 0],
-        ['oc', 1],
-        ['af', 2],
-        ['as', 3],
-        ['na', 4],
-        ['sa', 5]
+        ['au-nt', 0],
+        ['au-wa', 1],
+        ['au-ct', 2],
+        ['au-sa', 3],
+        ['au-ql', 4],
+        ['au-ts', 6],
+        ['au-jb', 7],
+        ['au-ns', 8],
+        ['au-vi', 9]
     ];
+
 
     // Create the chart
     Highcharts.mapChart('map-container', {
         chart: {
-            map: 'custom/world-continents',
+            map: 'countries/au/au-all',
             height: 460,
         },
 
@@ -93,7 +97,10 @@
             text: ''
         },
         mapNavigation: {
-            enabled: false,
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
         },
 
         colorAxis: {
@@ -112,7 +119,7 @@
             point:{
                 events:{
                     click: function(){
-                        location.href = 'http://localhost/nationsbook/' +
+                        location.href = 'http://localhost/' +
                             this.name + '.php';
                     }
                 }

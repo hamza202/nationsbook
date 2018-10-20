@@ -69,23 +69,68 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/highmaps.js"></script>
-<script src="https://code.highcharts.com/modules/annotations.js"></script>
+<script src="js/annotations.js"></script>
 <script src="js/exporting.js"></script>
-<script src="js/world-continents.js"></script>
+<script src="js/europe.js"></script>
 <script>
     var data = [
-        ['eu', 0],
-        ['oc', 1],
-        ['af', 2],
-        ['as', 3],
-        ['na', 4],
-        ['sa', 5]
+        ['dk', 0],
+        ['fo', 1],
+        ['hr', 2],
+        ['nl', 3],
+        ['ee', 4],
+        ['bg', 5],
+        ['es', 6],
+        ['it', 7],
+        ['sm', 8],
+        ['va', 9],
+        ['tr', 10],
+        ['mt', 11],
+        ['fr', 12],
+        ['no', 13],
+        ['de', 14],
+        ['ie', 15],
+        ['ua', 16],
+        ['fi', 17],
+        ['se', 18],
+        ['ru', 19],
+        ['gb', 20],
+        ['cy', 21],
+        ['pt', 22],
+        ['gr', 23],
+        ['lt', 24],
+        ['si', 25],
+        ['ba', 26],
+        ['mc', 27],
+        ['al', 28],
+        ['cnm', 29],
+        ['nc', 30],
+        ['rs', 31],
+        ['ro', 32],
+        ['me', 33],
+        ['li', 34],
+        ['at', 35],
+        ['sk', 36],
+        ['hu', 37],
+        ['ad', 38],
+        ['lu', 39],
+        ['ch', 40],
+        ['be', 41],
+        ['kv', 42],
+        ['pl', 43],
+        ['mk', 44],
+        ['lv', 45],
+        ['by', 46],
+        ['is', 47],
+        ['md', 48],
+        ['cz', 49]
     ];
+
 
     // Create the chart
     Highcharts.mapChart('map-container', {
         chart: {
-            map: 'custom/world-continents',
+            map: 'custom/europe',
             height: 460,
         },
 
@@ -93,7 +138,10 @@
             text: ''
         },
         mapNavigation: {
-            enabled: false,
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
         },
 
         colorAxis: {
@@ -112,7 +160,7 @@
             point:{
                 events:{
                     click: function(){
-                        location.href = 'http://localhost/nationsbook/' +
+                        location.href = 'http://localhost/' +
                             this.name + '.php';
                     }
                 }

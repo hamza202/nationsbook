@@ -69,23 +69,47 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/highmaps.js"></script>
-<script src="https://code.highcharts.com/modules/annotations.js"></script>
+<script src="js/annotations.js"></script>
 <script src="js/exporting.js"></script>
-<script src="js/world-continents.js"></script>
+<script src="js/north-america.js"></script>
 <script>
     var data = [
-        ['eu', 0],
-        ['oc', 1],
-        ['af', 2],
-        ['as', 3],
-        ['na', 4],
-        ['sa', 5]
+        ['gl', 0],
+        ['lc', 1],
+        ['um', 2],
+        ['us', 3],
+        ['vi', 4],
+        ['ca', 5],
+        ['cu', 6],
+        ['kn', 7],
+        ['ni', 8],
+        ['gd', 9],
+        ['dm', 10],
+        ['ag', 11],
+        ['tt', 12],
+        ['sw', 13],
+        ['bb', 14],
+        ['jm', 15],
+        ['bu', 16],
+        ['bs', 17],
+        ['vc', 18],
+        ['ht', 19],
+        ['sv', 20],
+        ['hn', 21],
+        ['do', 22],
+        ['mx', 23],
+        ['bz', 24],
+        ['gt', 25],
+        ['cr', 26],
+        ['pr', 27],
+        ['pa', 28]
     ];
+
 
     // Create the chart
     Highcharts.mapChart('map-container', {
         chart: {
-            map: 'custom/world-continents',
+            map: 'custom/north-america',
             height: 460,
         },
 
@@ -93,7 +117,10 @@
             text: ''
         },
         mapNavigation: {
-            enabled: false,
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
         },
 
         colorAxis: {
@@ -112,7 +139,7 @@
             point:{
                 events:{
                     click: function(){
-                        location.href = 'http://localhost/nationsbook/' +
+                        location.href = 'http://localhost/' +
                             this.name + '.php';
                     }
                 }
