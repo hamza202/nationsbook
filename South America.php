@@ -122,8 +122,8 @@
             point:{
                 events:{
                     click: function(){
-                        location.href = 'http://localhost/' +
-                            this.name + '.php';
+                        location.href = '/' +
+                             'city.php?'+this.name;
                     }
                 }
             },

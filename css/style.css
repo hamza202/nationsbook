@@ -1625,6 +1625,7 @@ ul.online-users li span.online-dot {
     width: 200px;
     border-radius: 50%;
     border: 10px solid #fff;
+    object-fit: cover;
 }
 
 .timeline-cover .timeline-nav-bar ul.profile-menu {
@@ -3749,6 +3750,49 @@ button.fileinput-remove:hover{
 .mb-20{
     margin-bottom: 20px;
 }
+.pt-0{
+    padding-top: 0 !important;
+}
+.profile-info-time .change-photo-btn{
+    max-width: 135px;
+}
+.timeline-cover .edit-profile-photo img{
+    max-height: 200px;
+}
+.timeline-cover .change-photo-btn{
+    bottom: 35px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.timeline-cover  .edit-profile-photo:hover .change-photo-btn{
+    opacity: 1;
+}
+.cover-time-btn {
+    opacity: 1 !important;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: auto !important;
+    left: auto !important;
+    max-width: 230px !important;
+}
+.profile-info-time-big {
+    position: relative;
+}
+.profile-info-time-name{
+    position: absolute;
+    right: -109%;
+    left: 60%;
+    width: auto;
+    z-index: -1;
+    top: 11px;
+    padding: 0 30px 0 70px;
+    background: #fff;
+    border-top-right-radius: 5px;
+}
+.profile-info-time-name h3{
+    font-size: 21px;
+}
 @media (min-width: 1300px) {
     .container {
         width: 1270px;
@@ -3771,5 +3815,13 @@ button.fileinput-remove:hover{
 
     .index-container .map-section {
         padding-left: 0;
+    }
+}
+@media (max-width: 992px) {
+    .timeline-container {
+        margin-top: 200px !important;
+    }
+    .timeline-cover .change-photo-btn{
+        opacity: 1;
     }
 }
