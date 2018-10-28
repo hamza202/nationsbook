@@ -12,7 +12,7 @@
                 </li>
                 <li>
                     <i><img src="images/meeting.svg"></i>
-                    <div><a href="#">Contact</a></div>
+                    <div><a href="timeline-friends.php">Contact</a></div>
                 </li>
             </ul>
         </div><!--profile card ends-->

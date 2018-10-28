@@ -56,10 +56,7 @@
                             </div>
                             <div class="col-md-9">
                                 <ul class="list-inline profile-menu">
-                                    <li><a href="#" class="active">Timeline</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Friends</a></li>
-                                    <li><a href="#">Setting</a></li>
+                                    <?php include 'profile-menu.php'?>
                                 </ul>
                                 <ul class="follow-me list-inline">
                                     <li>1,299 people following her</li>
@@ -89,10 +86,7 @@
                         </div>
                         <div class="mobile-menu">
                             <ul class="list-inline">
-                                <li><a href="#" class="active">Timeline</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Friends</a></li>
-                                <li><a href="#">Setting</a></li>
+                                <?php include 'profile-menu.php'?>
                             </ul>
                             <button class="btn-primary">Add Friend</button>
                         </div>

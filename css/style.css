@@ -1811,10 +1811,6 @@ ul.online-users li span.online-dot {
     border-radius: 50%;
 }
 
-.about-profile .about-content-block .organization .work-info {
-    margin-left: 50px;
-}
-
 .about-profile .about-content-block .google-maps .map {
     height: 150px;
 }
@@ -1871,26 +1867,19 @@ ul.album-photos li img {
 /* Edit Profile Menu */
 
 ul.edit-menu {
-    margin-top: 100px;
+    margin-top: 0;
     padding: 0 20px;
 }
 
 ul.edit-menu li {
     list-style: none;
-    border-bottom: 1px solid #f1f2f2;
-    padding: 15px 0;
+    padding: 5px 0;
     position: relative;
 }
 
-ul.edit-menu li.active::before {
-    content: "";
-    background: #8dc63f;
-    width: 2px;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    left: -20px;
-    transform: translate(-50%, -50%);
+ul.edit-menu li.active {
+    border-bottom: 2px solid #104e8b;
+    border-top: 2px solid #104e8b;
 }
 
 ul.edit-menu li i.icon {
@@ -1898,16 +1887,18 @@ ul.edit-menu li i.icon {
 }
 
 ul.edit-menu li.active i.icon {
-    color: #8dc63f;
+    color: #104e8b;
 }
-
+ul.edit-menu li:not(:last-child){
+    margin-right: 20px;
+}
 ul.edit-menu li a {
     color: #6d6e71;
-    margin-left: 20px;
+    margin-left: 7px;
 }
 
 ul.edit-menu li.active a {
-    color: #8dc63f;
+    color: #104e8b;
 }
 
 /* Edit Profile Contents */
@@ -3792,6 +3783,20 @@ button.fileinput-remove:hover{
 }
 .profile-info-time-name h3{
     font-size: 21px;
+}
+.px-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.friend-search{
+    background: transparent !important;
+}
+.friend-search.menu form .form-group input.form-control{
+    background: rgba(16, 78, 139, 0.83);
+    width: 100% !important;
+}
+.friend-search.menu form .form-group{
+    width: 100%;
 }
 @media (min-width: 1300px) {
     .container {
