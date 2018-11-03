@@ -57,22 +57,34 @@
                                     <div class="attachments">
                                         <ul>
                                             <li>
-                                                <a title="attachment" data-toggle="collapse" data-target="#dd">
-                                                <i class="fa fa-paperclip"></i>
+                                                <a title="attachment" data-toggle="collapse" data-target="#yy">
+                                                    <i class="fa fa-youtube-play"></i>
                                                 </a>
 
                                             </li>
                                             <li>
+                                                <a title="attachment" data-toggle="collapse" data-target="#dd">
+                                                    <i class="fa fa-paperclip"></i>
+                                                </a>
+
+                                            </li>
+
+                                            <li>
                                                 <button type="submit" class="btn btn-primary ">Publish</button>
                                             </li>
                                         </ul>
-                                        <div id="dd" class="collapse mt-20">
+                                        <div id="yy" class="collapse mt-20">
                                             <div class="input-group mb-20">
                                                 <span class="input-group-addon y-add"><i class="fa fa-youtube-play"></i></span>
-                                                <input  id="youtube-link" type="text" class="form-control" name="youtube-link" placeholder="https://www.youtube.com/watch?v=sdfdfdgd356">
+                                                <input id="youtube-link" type="text" class="form-control"
+                                                       name="youtube-link"
+                                                       placeholder="https://www.youtube.com/watch?v=sdfdfdgd356">
                                             </div>
+                                        </div>
+                                        <div id="dd" class="collapse mt-20">
                                             <input id="input-b3" name="input-b3[]" type="file" class="file" multiple
-                                                   data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
+                                                   data-show-upload="false" data-show-caption="true"
+                                                   data-msg-placeholder="Select {files} for upload...">
                                         </div>
                                     </div>
                                 </form>
@@ -139,7 +151,8 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Jason borne</a></h5>
                                                 <span>1 year ago</span>
-                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo4">
+                                                <a class="we-reply" title="Reply" data-toggle="collapse"
+                                                   data-target="#demo4">
                                                     Reply
                                                 </a>
                                             </div>
@@ -156,7 +169,8 @@
                                                         <form method="post">
                                                             <textarea placeholder="Reply"></textarea>
 
-                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                            <button type="submit" class="btn btn-primary ">Reply
+                                                            </button>
                                                         </form>
                                                     </div>
                                                 </li>
@@ -201,7 +215,8 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Donald Trump</a></h5>
                                                 <span>1 week ago</span>
-                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo3">
+                                                <a class="we-reply" title="Reply" data-toggle="collapse"
+                                                   data-target="#demo3">
                                                     Reply
                                                 </a>
                                             </div>
@@ -219,7 +234,8 @@
                                                         <form method="post">
                                                             <textarea placeholder="Reply"></textarea>
 
-                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                            <button type="submit" class="btn btn-primary ">Reply
+                                                            </button>
                                                         </form>
                                                     </div>
                                                 </li>
@@ -264,38 +280,40 @@
                                             arabia, you can book your test drive by our official website
                                         </p>
                                     </div>
-                                    <iframe  width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs"
+                                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                     <div style="display:none;" id="video1">
-                                        <video class="lg-video-object lg-html5"  controls preload="none">
+                                        <video class="lg-video-object lg-html5" controls preload="none">
                                             <source src="vedio/video.mp4" type="video/mp4">
                                             Your browser does not support HTML5 video.
                                         </video>
                                     </div>
                                     <ul class="imageGallery">
 
-                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"  data-thumb="vedio/thumb-v-y-1.jpg"  data-html="#video1" >
-                                            <img src="vedio/thumb-v-y-1.jpg" />
+                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"
+                                            data-thumb="vedio/thumb-v-y-1.jpg" data-html="#video1">
+                                            <img src="vedio/thumb-v-y-1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/1.jpg" data-src="images/album/1.jpg">
-                                            <img src="images/album/1.jpg" />
+                                            <img src="images/album/1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/1.jpg" data-src="images/album/1.jpg">
-                                            <img src="images/album/1.jpg" />
+                                            <img src="images/album/1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/1.jpg" data-src="images/album/1.jpg">
-                                            <img src="images/album/1.jpg" />
+                                            <img src="images/album/1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                     </ul>
                                     <div class="we-video-info">
@@ -336,7 +354,8 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Jason borne</a></h5>
                                                 <span>1 year ago</span>
-                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo">
+                                                <a class="we-reply" title="Reply" data-toggle="collapse"
+                                                   data-target="#demo">
                                                     Reply
                                                 </a>
                                             </div>
@@ -353,7 +372,8 @@
                                                         <form method="post">
                                                             <textarea placeholder="Reply"></textarea>
 
-                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                            <button type="submit" class="btn btn-primary ">Reply
+                                                            </button>
                                                         </form>
                                                     </div>
                                                 </li>
@@ -399,7 +419,8 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Donald Trump</a></h5>
                                                 <span>1 week ago</span>
-                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo2">
+                                                <a class="we-reply" title="Reply" data-toggle="collapse"
+                                                   data-target="#demo2">
                                                     Reply
                                                 </a>
                                             </div>
@@ -417,7 +438,8 @@
                                                         <form method="post">
                                                             <textarea placeholder="Reply"></textarea>
 
-                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                            <button type="submit" class="btn btn-primary ">Reply
+                                                            </button>
                                                         </form>
                                                     </div>
                                                 </li>
@@ -462,38 +484,40 @@
                                             arabia, you can book your test drive by our official website
                                         </p>
                                     </div>
-                                    <iframe  width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs"
+                                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                     <div style="display:none;" id="video1">
-                                        <video class="lg-video-object lg-html5"  controls preload="none">
+                                        <video class="lg-video-object lg-html5" controls preload="none">
                                             <source src="vedio/video.mp4" type="video/mp4">
                                             Your browser does not support HTML5 video.
                                         </video>
                                     </div>
                                     <ul class="imageGallery">
 
-                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"  data-thumb="vedio/thumb-v-y-1.jpg"  data-html="#video1" >
-                                            <img src="vedio/thumb-v-y-1.jpg" />
+                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"
+                                            data-thumb="vedio/thumb-v-y-1.jpg" data-html="#video1">
+                                            <img src="vedio/thumb-v-y-1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/1.jpg" data-src="images/album/1.jpg">
-                                            <img src="images/album/1.jpg" />
+                                            <img src="images/album/1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/1.jpg" data-src="images/album/1.jpg">
-                                            <img src="images/album/1.jpg" />
+                                            <img src="images/album/1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/1.jpg" data-src="images/album/1.jpg">
-                                            <img src="images/album/1.jpg" />
+                                            <img src="images/album/1.jpg"/>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg" />
+                                            <img src="images/album/3.jpg"/>
                                         </li>
                                     </ul>
                                     <div class="we-video-info">
@@ -534,7 +558,8 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Jason borne</a></h5>
                                                 <span>1 year ago</span>
-                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo">
+                                                <a class="we-reply" title="Reply" data-toggle="collapse"
+                                                   data-target="#demo">
                                                     Reply
                                                 </a>
                                             </div>
@@ -551,7 +576,8 @@
                                                         <form method="post">
                                                             <textarea placeholder="Reply"></textarea>
 
-                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                            <button type="submit" class="btn btn-primary ">Reply
+                                                            </button>
                                                         </form>
                                                     </div>
                                                 </li>
@@ -597,7 +623,8 @@
                                             <div class="coment-head">
                                                 <h5><a href="#" title="">Donald Trump</a></h5>
                                                 <span>1 week ago</span>
-                                                <a class="we-reply" title="Reply" data-toggle="collapse" data-target="#demo2">
+                                                <a class="we-reply" title="Reply" data-toggle="collapse"
+                                                   data-target="#demo2">
                                                     Reply
                                                 </a>
                                             </div>
@@ -615,7 +642,8 @@
                                                         <form method="post">
                                                             <textarea placeholder="Reply"></textarea>
 
-                                                            <button type="submit" class="btn btn-primary ">Reply</button>
+                                                            <button type="submit" class="btn btn-primary ">Reply
+                                                            </button>
                                                         </form>
                                                     </div>
                                                 </li>
@@ -655,8 +683,6 @@
 <div>
 
 
-
-
 </div>
 <!--preloader-->
 <div id="spinner-wrapper">
@@ -692,7 +718,7 @@
             }
         });
     });
-    $(document).on('ready', function() {
+    $(document).on('ready', function () {
         $("#input-b3").fileinput({});
     });
 </script>

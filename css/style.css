@@ -3798,6 +3798,15 @@ button.fileinput-remove:hover{
 .friend-search.menu form .form-group{
     width: 100%;
 }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border: 0;
+    text-decoration: none !important;
+}
+.nav-tabs>li>a,
+.nav-tabs>li>a{
+    border: 0 !important;
+    text-decoration: none !important;
+}
 @media (min-width: 1300px) {
     .container {
         width: 1270px;
