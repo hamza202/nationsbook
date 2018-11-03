@@ -1889,9 +1889,11 @@ ul.edit-menu li i.icon {
 ul.edit-menu li.active i.icon {
     color: #104e8b;
 }
-ul.edit-menu li:not(:last-child){
+
+ul.edit-menu li:not(:last-child) {
     margin-right: 20px;
 }
+
 ul.edit-menu li a {
     color: #6d6e71;
     margin-left: 7px;
@@ -3692,72 +3694,91 @@ li.video-icon::before {
     cursor: pointer;
     z-index: 1111;
 }
-.lSSlideOuter .lSPager.lSGallery li{
+
+.lSSlideOuter .lSPager.lSGallery li {
     height: 80px;
 }
-.lSSlideOuter .lSPager.lSGallery img{
+
+.lSSlideOuter .lSPager.lSGallery img {
     height: 100% !important;
     object-fit: cover;
 }
-.y-add i{
+
+.y-add i {
     color: #cd201f;
     line-height: 0;
 }
-.input-group-addon{
+
+.input-group-addon {
     background-color: #f8f8f8;
     border: 1px solid #e8e8e8;
 }
-.krajee-default .file-caption-info, .krajee-default .file-size-info{
+
+.krajee-default .file-caption-info, .krajee-default .file-size-info {
     line-height: 16px;
 }
-button.fileinput-remove{
+
+button.fileinput-remove {
     background: #cd201f;
     color: #fff;
 }
-button.fileinput-remove:hover{
+
+button.fileinput-remove:hover {
     background: #bf1e1d;
     color: #fff;
 }
-.file-preview .fileinput-remove{
+
+.file-preview .fileinput-remove {
     color: #cd201f;
     opacity: 1;
     background: transparent;
     top: 6px;
     right: 6px;
 }
-.file-preview .fileinput-remove:hover{
-    color:  #bf1e1d;
+
+.file-preview .fileinput-remove:hover {
+    color: #bf1e1d;
     background: transparent;
 }
-.file-caption{
+
+.file-caption {
     margin-top: 3px;
 }
-.file-upload-indicator{
+
+.file-upload-indicator {
     display: none;
 }
-.file-drop-zone-title{
+
+.file-drop-zone-title {
     padding: 40px 10px;
 }
-.mb-20{
+
+.mb-20 {
     margin-bottom: 20px;
 }
-.pt-0{
+
+.pt-0 {
     padding-top: 0 !important;
 }
-.profile-info-time .change-photo-btn{
+
+.profile-info-time .change-photo-btn {
     max-width: 135px;
 }
-.timeline-cover .edit-profile-photo img{
+
+.timeline-cover .edit-profile-photo img {
     max-height: 200px;
 }
-.timeline-cover .change-photo-btn{
+
+.timeline-cover .change-photo-btn {
     bottom: 35px;
     opacity: 0;
     transition: all 0.3s ease-in-out;
 }
-.timeline-cover  .edit-profile-photo:hover .change-photo-btn{
+
+.timeline-cover .edit-profile-photo:hover .change-photo-btn {
     opacity: 1;
 }
+
 .cover-time-btn {
     opacity: 1 !important;
     position: absolute;
@@ -3767,10 +3788,12 @@ button.fileinput-remove:hover{
     left: auto !important;
     max-width: 230px !important;
 }
+
 .profile-info-time-big {
     position: relative;
 }
-.profile-info-time-name{
+
+.profile-info-time-name {
     position: absolute;
     right: -109%;
     left: 60%;
@@ -3781,31 +3804,85 @@ button.fileinput-remove:hover{
     background: #fff;
     border-top-right-radius: 5px;
 }
-.profile-info-time-name h3{
+
+.profile-info-time-name h3 {
     font-size: 21px;
 }
-.px-15{
+
+.px-15 {
     padding-left: 15px;
     padding-right: 15px;
 }
-.friend-search{
+
+.friend-search {
     background: transparent !important;
 }
-.friend-search.menu form .form-group input.form-control{
+
+.friend-search.menu form .form-group input.form-control {
     background: rgba(16, 78, 139, 0.83);
     width: 100% !important;
 }
-.friend-search.menu form .form-group{
+
+.friend-search.menu form .form-group {
     width: 100%;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     border: 0;
     text-decoration: none !important;
 }
-.nav-tabs>li>a,
-.nav-tabs>li>a{
+
+.nav-tabs > li > a,
+.nav-tabs > li > a {
     border: 0 !important;
     text-decoration: none !important;
+}
+
+.city-section.friend-list .friend-card .card-info {
+    background: #f3f3f3;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+a.friend-card-container{
+    position: relative;
+}
+a.friend-card-container::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(243,243,243,0.7);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    clear: both;
+}
+a.friend-card-container:hover::before{
+    opacity: 1;
+}
+
+.friend-card-container .fa-link{
+    position: absolute;
+    font-size: 35px;
+    top: 50%;
+    left: 50%;
+    color: #104e8b;
+    transform: translate(-50% , -50%) scale(0);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+a.friend-card-container:hover .fa-link{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+}
+.city-section.friend-list .friend-card .card-info a{
+    color: #104e8b;
+}
+.d-block{
+    display: block !important;
 }
 @media (min-width: 1300px) {
     .container {
@@ -3831,11 +3908,13 @@ button.fileinput-remove:hover{
         padding-left: 0;
     }
 }
+
 @media (max-width: 992px) {
     .timeline-container {
         margin-top: 200px !important;
     }
-    .timeline-cover .change-photo-btn{
+
+    .timeline-cover .change-photo-btn {
         opacity: 1;
     }
 }
