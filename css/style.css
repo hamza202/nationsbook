@@ -3884,6 +3884,36 @@ a.friend-card-container:hover .fa-link{
 .d-block{
     display: block !important;
 }
+
+.scrollbar-wrapper.contact-list::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-wrapper.contact-list::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(142, 142, 142, 0.5);
+    background-color: #9a9a9a;
+}
+.scrollbar-wrapper.tab-content::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #F5F5F5;
+}
+.scrollbar-wrapper.tab-content::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(142, 142, 142, 0.5);
+    background-color: #9a9a9a;
+}
+.scrollbar-wrapper.tab-content{
+    padding-right: 15px;
+}
+.chat-room ul.contact-list li a:hover, .chat-room ul.contact-list li a:active, .chat-room ul.contact-list li a:focus{
+    border-bottom: 1px solid #104e8b !important;
+}
 @media (min-width: 1300px) {
     .container {
         width: 1270px;
