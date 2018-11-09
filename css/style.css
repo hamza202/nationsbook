@@ -3914,6 +3914,67 @@ a.friend-card-container:hover .fa-link{
 .chat-room ul.contact-list li a:hover, .chat-room ul.contact-list li a:active, .chat-room ul.contact-list li a:focus{
     border-bottom: 1px solid #104e8b !important;
 }
+.albom-container{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card-overly{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.9);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.91) 20%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.91) 20%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.91) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.91) 20%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.91) 20%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', GradientType=1);
+}
+.albom-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+    z-index: 2;
+}
+.albom-content h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.albom-container img{
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+.albom-container:hover img{
+    transform: scale(1.2);
+}
+.cat-big-title{
+    padding: 15px;
+    background: #27aae1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.cat-big-title h3{
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0;
+    font-size: 21px;
+}
+.cat-container{
+    margin-bottom: 20px;
+}
 @media (min-width: 1300px) {
     .container {
         width: 1270px;
