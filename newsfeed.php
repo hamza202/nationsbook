@@ -282,6 +282,7 @@
                                     </div>
                                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs"
                                             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <div class="clearfix"></div>
                                     <div style="display:none;" id="video1">
                                         <video class="lg-video-object lg-html5" controls preload="none">
                                             <source src="vedio/video.mp4" type="video/mp4">
@@ -486,6 +487,7 @@
                                     </div>
                                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ss5Yelj0pKs"
                                             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <div class="clearfix"></div>
                                     <div style="display:none;" id="video1">
                                         <video class="lg-video-object lg-html5" controls preload="none">
                                             <source src="vedio/video.mp4" type="video/mp4">
