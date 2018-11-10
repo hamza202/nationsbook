@@ -289,11 +289,19 @@
                                             Your browser does not support HTML5 video.
                                         </video>
                                     </div>
-                                    <ul class="imageGallery">
+                                    <ul class="imageGallery list-unstyled">
 
                                         <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"
                                             data-thumb="vedio/thumb-v-y-1.jpg" data-html="#video1">
                                             <img src="vedio/thumb-v-y-1.jpg"/>
+                                            <div class="number-plus-container">
+                                                <div class="number-plus-inner">
+                                                    <div class="number-cont">
+                                                    <i class="fa fa-plus"></i>
+                                                    <span>7</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
                                             <img src="images/album/3.jpg"/>
@@ -494,7 +502,7 @@
                                             Your browser does not support HTML5 video.
                                         </video>
                                     </div>
-                                    <ul class="imageGallery">
+                                    <ul class="imageGallery list-unstyled">
 
                                         <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"
                                             data-thumb="vedio/thumb-v-y-1.jpg" data-html="#video1">
@@ -704,21 +712,7 @@
 <script src="js/script.js"></script>
 <script>
     $(document).ready(function () {
-        $('.imageGallery').lightSlider({
-            gallery: true,
-            item: 1,
-            loop: true,
-            thumbItem: 9,
-            slideMargin: 0,
-            enableDrag: false,
-            currentPagerPosition: 'left',
-            onSliderLoad: function (el) {
-                $('.lSSlideOuter li a img[src*="vedio/"]').parent().parent().addClass('video-icon');
-                el.lightGallery({
-                    selector: '.imageGallery .lslide'
-                });
-            }
-        });
+        $('.imageGallery').lightGallery();
     });
     $(document).on('ready', function () {
         $("#input-b3").fileinput({});

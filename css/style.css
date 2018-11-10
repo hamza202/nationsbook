@@ -3679,8 +3679,38 @@ li.post-comment .comet-avatar {
 
 li.video-icon {
     position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
-
+.imageGallery li:not(:first-child){
+    display: none;
+}
+.number-plus-container{
+    position:  absolute;
+    right: 0;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    background: rgba(16, 78, 139, 0.55);
+    z-index: 10;
+}
+.number-plus-inner{
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.number-cont{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+}
+.number-cont span{
+    font-size: 58px;
+    font-weight: 600;
+}
 li.video-icon::before {
     background-image: url(../vedio/play-button.png);
     background-size: 40px;
@@ -3692,9 +3722,11 @@ li.video-icon::before {
     position: absolute;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    z-index: 1111;
+    z-index: 9;
 }
-
+ul.imageGallery{
+    list-style-type: none !important;
+}
 .lSSlideOuter .lSPager.lSGallery li {
     height: 80px;
 }
