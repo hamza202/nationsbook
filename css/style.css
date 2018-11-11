@@ -3707,6 +3707,10 @@ li.video-icon {
     transform: translateY(-50%);
     font-size: 40px;
 }
+.imageGallery li{
+    position: relative;
+    display: inline-block;
+}
 .number-cont span{
     font-size: 58px;
     font-weight: 600;

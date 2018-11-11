@@ -290,22 +290,23 @@
                                         </video>
                                     </div>
                                     <ul class="imageGallery list-unstyled">
-
-                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"
-                                            data-thumb="vedio/thumb-v-y-1.jpg" data-html="#video1">
-                                            <img src="vedio/thumb-v-y-1.jpg"/>
+                                        <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
+                                            <img src="images/album/3.jpg"/>
                                             <div class="number-plus-container">
                                                 <div class="number-plus-inner">
                                                     <div class="number-cont">
-                                                    <i class="fa fa-plus"></i>
-                                                    <span>7</span>
+                                                        <i class="fa fa-plus"></i>
+                                                        <span>7</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
-                                            <img src="images/album/3.jpg"/>
+                                        <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"
+                                            data-thumb="vedio/thumb-v-y-1.jpg" data-html="#video1">
+                                            <img src="vedio/thumb-v-y-1.jpg"/>
+
                                         </li>
+
                                         <li data-thumb="images/album/1.jpg" data-src="images/album/1.jpg">
                                             <img src="images/album/1.jpg"/>
                                         </li>
@@ -507,6 +508,14 @@
                                         <li class="video-icon" data-poster="vedio/thumb-v-y-1.jpg"
                                             data-thumb="vedio/thumb-v-y-1.jpg" data-html="#video1">
                                             <img src="vedio/thumb-v-y-1.jpg"/>
+                                            <div class="number-plus-container">
+                                                <div class="number-plus-inner">
+                                                    <div class="number-cont">
+                                                        <i class="fa fa-plus"></i>
+                                                        <span>7</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li data-thumb="images/album/3.jpg" data-src="images/album/3.jpg">
                                             <img src="images/album/3.jpg"/>
