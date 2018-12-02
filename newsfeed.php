@@ -68,12 +68,14 @@
                                                 </a>
 
                                             </li>
-
                                             <li>
                                                 <button type="submit" class="btn btn-primary ">Publish</button>
                                             </li>
                                         </ul>
                                         <div id="yy" class="collapse mt-20">
+                                            <a title="close" data-toggle="collapse" data-target="#yy">
+                                                <i class="fa fa-close"></i>
+                                            </a>
                                             <div class="input-group mb-20">
                                                 <span class="input-group-addon y-add"><i class="fa fa-youtube-play"></i></span>
                                                 <input id="youtube-link" type="text" class="form-control"
@@ -81,9 +83,12 @@
                                                        placeholder="https://www.youtube.com/watch?v=sdfdfdgd356">
                                             </div>
                                         </div>
-                                        <div id="dd" class="collapse mt-20">
-                                            <input id="input-b3" name="input-b3[]" type="file" class="file" multiple
-                                                   data-show-upload="false" data-show-caption="true"
+                                        <div id="dd" class="collapse mt-20 relative">
+                                            <a title="close" data-toggle="collapse" data-target="#dd">
+                                                <i class="fa fa-close"></i>
+                                            </a>
+                                            <input id="input-b3"  name="input-b3[]" type="file" class="file" multiple
+                                                   data-show-upload="false" data-show-caption="true" data-drop-zone-title="dfkdkf"
                                                    data-msg-placeholder="Select {files} for upload...">
                                         </div>
                                     </div>
@@ -724,7 +729,9 @@
         $('.imageGallery').lightGallery();
     });
     $(document).on('ready', function () {
-        $("#input-b3").fileinput({});
+        $("#input-b3").fileinput({
+            showRemove:false
+        });
     });
 </script>
 
