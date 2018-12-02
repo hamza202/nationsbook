@@ -50,7 +50,7 @@ html, body {
 }
 
 body {
-    font-family: sans-serif;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
     line-height: 26px;
     color: #2a2a2a;
     font-size: 13px;
@@ -425,7 +425,7 @@ textarea {
 
 .menu ul.main-menu li.dropdown a {
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -1609,22 +1609,22 @@ ul.online-users li span.online-dot {
     background: rgba(0, 0, 0, .7);
     width: 100%;
     position: absolute;
-    bottom: 25px;
+    bottom: 0;
 }
 
 .timeline-cover .timeline-nav-bar .profile-info {
     position: absolute;
     text-align: center;
     padding: 0 20px;
-    top: -100px;
+    bottom: -42px;
     z-index: 999;
 }
 
 .timeline-cover .timeline-nav-bar .profile-info img.profile-photo {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    border: 10px solid #fff;
+    border: 3px solid #fff;
     object-fit: cover;
 }
 
@@ -3835,14 +3835,18 @@ button.fileinput-remove:hover {
     left: 60%;
     width: auto;
     z-index: -1;
-    top: 11px;
+    top: 22px;
     padding: 0 30px 0 70px;
     background: #fff;
     border-top-right-radius: 5px;
+    border-bottom-right-radius:  5px;
+    text-align: left;
 }
 
 .profile-info-time-name h3 {
     font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 .px-15 {
@@ -4010,6 +4014,34 @@ a.friend-card-container:hover .fa-link{
 }
 .cat-container{
     margin-bottom: 20px;
+}
+.profile-info-time-name p{
+    color: #000;
+    margin-bottom: 6px;
+}
+.profile-info-time-name p i{
+    padding-right: 5px;
+    width: 18px;
+    text-align: center;
+    color: #939598;
+}
+.main-category a{
+    display: block;
+    background: #27aae1;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 10px;
+}
+.main-category a:hover{
+    background:#104e8b ;
+}
+.post-meta .description p,
+.we-comment > p{
+    font-size: 15px;
 }
 @media (min-width: 1300px) {
     .container {

@@ -36,7 +36,7 @@
                     </div>
                     <div class="timeline-nav-bar hidden-sm hidden-xs">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="profile-info profile-info-time profile-info-time-big">
                                     <div class="edit-profile-photo">
                                         <img class="profile-pic pic2 img-responsive profile-photo"
@@ -50,11 +50,12 @@
                                     </div>
                                     <div class="profile-info-time-name">
                                         <h3>Hamza Abo aitah</h3>
-                                        <p class="text-muted">Creative Director</p>
+                                        <p class="text-muted"><i class="fa fa-briefcase"></i>Creative Director</p>
+                                        <p class="text-muted"><i class="fa fa-map-marker"></i>Creative Director</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-8">
                                 <ul class="list-inline profile-menu">
                                     <?php include 'profile-menu.php'?>
                                 </ul>
